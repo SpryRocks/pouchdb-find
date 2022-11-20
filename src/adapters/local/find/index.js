@@ -73,7 +73,6 @@ function doAllDocs(db, originalOpts) {
 }
 
 function find(db, requestDef, explain) {
-  console.log("hahaha")
   if (requestDef.selector) {
     // must be validated before massaging
     validateSelector(requestDef.selector, false);
